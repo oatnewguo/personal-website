@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+eleventyNavigation:
+  key: Projects
+  order: 3
+---
+<h1>Projects</h1>
+
+<ul>
+	{%- for page in collections.project %}
+	<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+	{%- endfor %}
+</ul>

@@ -1,0 +1,163 @@
+html
+{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#canvas
+{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.visualization_box
+{
+  overflow-x: auto;       /* force tool to scroll horizontally */
+  display: flex;
+}
+
+.visualization_box > *
+{
+  flex: 0 0 auto;
+}
+
+.node, .link, .bg_link, .help_button
+{
+  cursor: pointer;
+}
+
+.layer_title
+{
+  font-weight: bold;
+}
+
+.panel
+{
+  overflow: auto;
+  word-wrap: break-word;
+  position: relative;
+}
+
+.panel > *
+{
+  margin: 15px 0 0 0;
+}
+
+.panel > *:first-child
+{
+  margin: 0 36px 0 0;
+}
+
+.panel h1
+{
+  font-size: 1.8em;
+}
+
+.panel_box
+{
+  line-height: 0;
+  vertical-align: top;
+}
+
+.panel_box *
+{
+  line-height: initial;
+}
+
+#node_panel_opts_box
+{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#node_panel_opts_box svg
+{
+  flex: 0 0 auto;
+}
+
+#node_panel_opts_box div
+{
+  margin: 0 0 0 10px;
+}
+
+#node_panel_opts_box h2
+{
+  margin: 0 0 5px 0;
+  font-size: 1.3em;
+}
+
+#node_panel_opts_box p
+{
+  margin: 0;
+}
+
+.panel_list_box h2
+{
+  margin: 0 0 5px 0;
+  font-size: 1.3em;
+}
+
+.panel_list_box div
+{
+  display: flex;
+  padding: 5px 0 5px 0;
+}
+
+.panel_list_box div:last-child
+{
+  padding-bottom: 0;
+}
+
+.panel_list_box div svg
+{
+  flex: 0 0 auto;
+}
+
+.panel_list_box div p
+{
+  margin: 0 0 0 5px;
+  align-self: center;
+}
+
+#link_panel_header_box
+{
+  display: flex;
+}
+
+#link_panel_header_box svg
+{
+  flex: 0 0 auto;
+}
+
+#link_panel_header_box h1
+{
+  margin: 0 0 0 10px;
+  align-self: center;
+}
+
+.close_btn
+{
+  color: #777;
+  font: 48px Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 0;
+  right: 16px;
+  cursor: pointer;
+  margin: 0;
+  -webkit-transition: color .5s; /* Safari */
+          transition: color .5s;
+}
+
+.close_btn:hover
+{
+  color: #333;
+}
+
+.close_btn:after
+{
+  content: "\00D7"; /* X symbol */
+}

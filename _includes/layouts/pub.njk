@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+---
+<h1>{{ title }}</h1>
+
+<ul class="pub-metadata">
+	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate("LLLL yyyy") }}</time></li>
+	{%- for tag in tags | filterTagList %}
+	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="pub-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
+	{%- endfor %}
+</ul>
+
+{{ content | safe }}
+
+{%- if collections.pub %}
+{%- set previousPub = collections.pub | getPreviousCollectionItem %}
+{%- set nextPub = collections.pub | getNextCollectionItem %}
+{%- if nextPub or previousPub %}
+<ul class="links-nextprev">
+	{%- if previousPub %}<li>Previous: <a href="{{ previousPub.page.url }}">{{ previousPub.data.title }}</a></li>{% endif %}
+	{%- if nextPub %}<li>Next: <a href="{{ nextPub.page.url }}">{{ nextPub.data.title }}</a></li>{% endif %}
+</ul>
+{%- endif %}
+{%- endif %}

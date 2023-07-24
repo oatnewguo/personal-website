@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+layoutVariant: showcase
+eleventyNavigation:
+  key: Poli-see
+  parent: Projects
+title: Poli-see
+---
+
+<h1>Poli-see</h1>
+
+<p>This is a working demo of Poli-see, the interactive privacy policy visualization tool I created for my senior project at Pomona College. We published a <a href="https://cs.pomona.edu/~ebirrell/docs/WPES20-Polisee.pdf" target="_blank">paper</a> about this at WPES '20, and the code is available on <a href="https://github.com/oatnewguo/poli-see" target="_blank">GitHub</a>.</p>
+
+<p>You can view example Poli-see visualizations for <a id="care" href="">Care+</a> (a made-up company), as well as for <a id="strava" href="">Strava</a> and <a id="asics" href="">ASICS</a> (based on their privacy policies in March 2019).</p>
+
+{# Change the background color if it's not handled in the original page (check by changing to the dark color scheme) #}
+<iframe id="poli-see" src="tool.html?policy=care.json" title="Poli-see" style="background-color: white;"></iframe>
+
+<script type="text/javascript">
+  window.onload = function() {
+    var poli_see = document.getElementById("poli-see");
+    var care = document.getElementById("care");
+    var strava = document.getElementById("strava");
+    var asics = document.getElementById("asics");
+
+    care.onclick = function() {
+      poli_see.setAttribute("src", "tool.html?policy=care.json");
+      return false;
+    }
+    strava.onclick = function() {
+      poli_see.setAttribute("src", "tool.html?policy=strava.json");
+      return false;
+    }
+    asics.onclick = function() {
+      poli_see.setAttribute("src", "tool.html?policy=asics.json");
+      return false;
+    }
+  }
+</script>

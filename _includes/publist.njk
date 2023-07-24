@@ -1,0 +1,23 @@
+{# pubCount may be greater than publist.length if displaying only part of the total list #}
+{%- css %}.publist { counter-reset: start-from {{ (pubCount or publist.length) + 1 }} }{% endcss %}
+
+<ol reversed class="publist">
+{% for pub in publist | reverse %}
+	<li class="publist-item">
+		{# basic information #}
+		<p class="publist-title">{{ pub.data.title }}</p>
+		<p class="publist-venue"><span title="{{ pub.data.venueFullName }}">{{ pub.data.venue }}</span></p>
+		{% if pub.data.submitStatus %}<p><i>{{ pub.data.submitStatus }}</i></p>{% endif %}
+		<div class="publist-authors"><div><i class="fa-solid fa-user-group"></i></div><p>{{ pub.data.authors | boldMe | safe }}</p></div>
+
+		{# badges for links to PDFs, code, etc. #}
+		{% if pub.data.pdf %}<a href="{{ pub.data.pdf }}" target="_blank" class="publist-pdf"><i class="fa-solid fa-file-lines"></i>PDF</a>{% endif %}
+		{% if pub.data.html %}<a href="{{ pub.data.html }}" target="_blank" class="publist-html"><i class="fa-solid fa-link"></i>HTML</a>{% endif %}
+		{% if pub.data.post %}<a href="{{ pub.data.post }}" target="_blank" class="publist-post"><i class="fa-solid fa-paragraph"></i></i>Post</a>{% endif %}
+		{% if pub.data.code %}<a href="{{ pub.data.code }}" target="_blank"><i class="fa-solid fa-code"></i>Code</a>{% endif %}
+		{# target is not _blank because assuming we're redirecting to another page on this website #}
+		{% if pub.data.demo %}<a href="{{ pub.data.demo }}"><i class="fa-solid fa-vial"></i></i>Demo</a>{% endif %}
+		{% if pub.data.talk %}<a href="{{ pub.data.talk }}" target="_blank"><i class="fa-solid fa-person-chalkboard"></i>Talk</a>{% endif %}
+	</li>
+{% endfor %}
+</ol>
