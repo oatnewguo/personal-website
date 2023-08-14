@@ -7,10 +7,11 @@ submitStatus:
 authors: Wentao Guo, Jason Walter, and Michelle L. Mazurek
 pdf:
 html: https://www.usenix.org/conference/usenixsecurity23/presentation/guo-wentao
-post:
+reflection:
+talk:
+slides: "/publications/product-reviewers/Guo 2023 The Role of Professional Product Reviewers in Evaluating Security and Privacy.pdf"
 code:
 demo:
-talk:
 tags:
 - "topic: professionals"
 ---

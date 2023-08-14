@@ -271,11 +271,11 @@ header {
 .pub-html:active {
 	color: var(--text-color-green-link-active) !important;
 }
-.pub-post {
+.pub-reflection {
 	color: var(--text-color-blue-link) !important;
 }
-.pub-post:hover,
-.pub-post:active {
+.pub-reflection:hover,
+.pub-reflection:active {
 	color: var(--text-color-blue-link-active) !important;
 }
 .pub-metadata i {

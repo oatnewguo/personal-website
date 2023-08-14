@@ -7,10 +7,11 @@ submitStatus:
 authors: Zaina Aljallad, Wentao Guo, Chhaya Chouhan, Christy LaPerriere, Jess Kropczynski, Pamela Wisnewski, and Heather Lipford
 pdf: https://www.ndss-symposium.org/wp-content/uploads/2019/02/usec2019_03-3_Aljallad_paper.pdf
 html:
-post:
+reflection:
+talk:
+slides:
 code:
 demo:
-talk:
 tags:
 - "topic: design"
 ---

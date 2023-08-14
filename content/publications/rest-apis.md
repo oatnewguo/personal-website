@@ -7,10 +7,11 @@ submitStatus:
 authors: Michael Coblenz, Wentao Guo, Kamatchi Voozhian, Jeffrey S. Foster
 pdf:
 html:
-post:
+reflection:
+talk:
+slides:
 code:
 demo:
-talk:
 tags:
 - "topic: professionals"
 ---

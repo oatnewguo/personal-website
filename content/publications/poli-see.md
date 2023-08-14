@@ -7,10 +7,11 @@ submitStatus:
 authors: Wentao Guo, Jay Rodolitz, and Eleanor Birrell
 pdf: https://cs.pomona.edu/~ebirrell/docs/WPES20-Polisee.pdf
 html:
-post:
+reflection:
+talk:
+slides:
 code: https://github.com/oatnewguo/poli-see
 demo: "../projects/poli-see/"
-talk:
 tags:
 - "topic: design"
 ---
