@@ -254,6 +254,9 @@ header {
 	align-items: baseline;
 	margin-bottom: 1em;
 }
+.pub-metadata h1 {
+	margin-bottom: 0.25em;
+}
 .pub-pdf {
 	color: var(--text-color-red-link) !important;
 }
@@ -295,7 +298,7 @@ header {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.pub-metadata>* {
+.pub-metadata a {
 	margin-right: 1em;
 }
 

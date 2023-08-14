@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
 ---
-<h1>{{ title }}</h1>
 
 <div class="pub-metadata">
+	<h1>{{ title }}</h1>
 	{# by all rights, it should be easier to pass this data, which is front matter in pubs, but unfortunately you have to go this circuitous route to get a parent element for this data; e.g., see https://github.com/11ty/eleventy/issues/338 #}
 	{% set metadata = (collections.pub | findCollectionElemByUrl(page.url)).data %}
 	{% include "pub-metadata.njk" %}
