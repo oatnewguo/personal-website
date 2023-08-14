@@ -34,15 +34,15 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginBundle);
 
 	// Filters
-	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+	eleventyConfig.addFilter("readableDate",
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
-	});
+		(dateObj, format, zone) => DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy")
+	);
 
-	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+	eleventyConfig.addFilter('htmlDateString',
 		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-		return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
-	});
+		(dateObj) => DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd')
+	);
 
 	// Get the first `n` elements of a collection.
 	eleventyConfig.addFilter("head", (array, n) => {
@@ -57,9 +57,9 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Return the smallest number argument
-	eleventyConfig.addFilter("min", (...numbers) => {
-		return Math.min.apply(null, numbers);
-	});
+	eleventyConfig.addFilter("min",
+		(...numbers) => Math.min.apply(null, numbers)
+	);
 
 	// Return all the tags used in a collection
 	eleventyConfig.addFilter("getAllTags", collection => {
@@ -71,13 +71,19 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Filters out the non-user-facing tags
-	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-		return (tags || []).filter(tag => ["pub", "project", "abby"].indexOf(tag) === -1);
-	});
+	eleventyConfig.addFilter("filterTagList",
+		tags => (tags || []).filter(tag => ["pub", "project", "abby"].indexOf(tag) === -1)
+	);
 	
-	eleventyConfig.addFilter("boldMe", (content = "") => {
-		return content.replace("Wentao Guo", "<b>Wentao Guo</b>");
-	});
+	// Bold "Wentao Guo" in a list of author names
+	eleventyConfig.addFilter("boldMe",
+		(content = "") => content.replace("Wentao Guo", "<b>Wentao Guo</b>")
+	);
+	
+	// Find an element in a collection by its url
+	eleventyConfig.addFilter("findCollectionElemByUrl",
+		(collection, url) => collection.find(elem => elem.url === url)
+	);
 
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {

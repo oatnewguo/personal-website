@@ -228,14 +228,10 @@ header {
 	padding: 0;
 	padding-left: 1.5rem;
 }
-.publist-item {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: baseline;
+.publist li {
 	counter-increment: start-from -1;
-	margin-bottom: 1em;
 }
-.publist-item::before {
+.publist li::before {
 	display: inline-block;
 	pointer-events: none;
 	content: "" counter(start-from, decimal-leading-zero) ". ";
@@ -252,48 +248,54 @@ header {
 	padding-left: .25em;
 	padding-right: .5em;
 }
-.publist-pdf {
+.pub-metadata {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	margin-bottom: 1em;
+}
+.pub-pdf {
 	color: var(--text-color-red-link) !important;
 }
-.publist-pdf:hover,
-.publist-pdf:active {
+.pub-pdf:hover,
+.pub-pdf:active {
 	color: var(--text-color-red-link-active) !important;
 }
-.publist-html {
+.pub-html {
 	color: var(--text-color-green-link) !important;
 }
-.publist-html:hover,
-.publist-html:active {
+.pub-html:hover,
+.pub-html:active {
 	color: var(--text-color-green-link-active) !important;
 }
-.publist-post {
+.pub-post {
 	color: var(--text-color-blue-link) !important;
 }
-.publist-post:hover,
-.publist-post:active {
+.pub-post:hover,
+.pub-post:active {
 	color: var(--text-color-blue-link-active) !important;
 }
-.publist-item i {
+.pub-metadata i {
 	margin-right: 0.25em;
 }
 .pubist-venue {
 	flex-basis: 100%;
 }
-.publist-authors {
+.pub-authors {
 	display: flex;
 	flex-basis: 100%;
 }
-.publist-authors div {
+.pub-authors div {
 	flex: 0 0;
 }
-.publist-authors p {
+.pub-authors p {
 	flex: 1 1;
 }
-.publist-item * {
+.pub-metadata * {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.publist-item>* {
+.pub-metadata>* {
 	margin-right: 1em;
 }
 
@@ -305,21 +307,18 @@ header {
 	text-transform: capitalize;
 	font-style: italic;
 }
-.publist-item > .pub-tag {
+.pub > .pub-tag {
 	align-self: center;
 }
 
 /* Tags list */
-.pub-metadata {
+.pub-taglist {
 	display: inline-flex;
 	flex-wrap: wrap;
 	gap: .5em;
 	list-style: none;
 	padding: 0;
 	margin: 0;
-}
-.pub-metadata time {
-	margin-right: 1em;
 }
 
 /* Direct Links / Markdown Headers */

@@ -1,0 +1,15 @@
+{# A summary of publication metadata (excluding the title); should be included inside an element with the class pub-metadata. Set metadata: a parent object with the front matter data (e.g., if pub is an element in a collection, then set metadata = pub.data). #}
+
+{# basic information #}
+<p class="pub-venue"><span title="{{ metadata.venueFullName }}">{{ metadata.venue }}</span></p>
+{% if metadata.submitStatus %}<p><i>{{ metadata.submitStatus }}</i></p>{% endif %}
+<div class="pub-authors"><div><i class="fa-solid fa-user-group"></i></div><p>{{ metadata.authors | boldMe | safe }}</p></div>
+
+{# badges for links to PDFs, code, etc. #}
+{% if metadata.pdf %}<a href="{{ metadata.pdf }}" target="_blank" class="pub-pdf"><i class="fa-solid fa-file-lines"></i>PDF</a>{% endif %}
+{% if metadata.html %}<a href="{{ metadata.html }}" target="_blank" class="pub-html"><i class="fa-solid fa-link"></i>HTML</a>{% endif %}
+{% if metadata.post %}<a href="{{ metadata.post }}" target="_blank" class="pub-post"><i class="fa-solid fa-paragraph"></i></i>Post</a>{% endif %}
+{% if metadata.code %}<a href="{{ metadata.code }}" target="_blank"><i class="fa-solid fa-code"></i>Code</a>{% endif %}
+{# target is not _blank because assuming we're redirecting to another page on this website #}
+{% if metadata.demo %}<a href="{{ metadata.demo }}"><i class="fa-solid fa-vial"></i></i>Demo</a>{% endif %}
+{% if metadata.talk %}<a href="{{ metadata.talk }}" target="_blank"><i class="fa-solid fa-person-chalkboard"></i>Talk</a>{% endif %}
