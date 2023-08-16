@@ -29,7 +29,7 @@
 	--syntax-tab-size: 2;
 }
 
-/* @media (prefers-color-scheme: dark) { */
+@media (prefers-color-scheme: dark) {
 	:root {
 		--outline-color: #bbb;
 
@@ -51,7 +51,7 @@
 		--text-color-blue-link: #09F;
 		--text-color-blue-link-active: #09D;
 	}
-/* } */
+}
 
 
 
