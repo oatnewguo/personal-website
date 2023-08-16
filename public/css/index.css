@@ -20,16 +20,16 @@
 	/* --text-color-link-visited: #17050F; */
 
 	--text-color-red-link: #A00;
-	--text-color-red-link-active: #C44;
+	--text-color-red-link-active: #B22;
 	--text-color-green-link: #090;
-	--text-color-green-link-active: #4B4;
+	--text-color-green-link-active: #2A2;
 	--text-color-blue-link: #00A;
-	--text-color-blue-link-active: #44C;
+	--text-color-blue-link-active: #33B;
 
 	--syntax-tab-size: 2;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
 	:root {
 		--outline-color: #bbb;
 
@@ -44,14 +44,14 @@
 		--text-color-link-active: #FD0;
 		/* --text-color-link-visited: #a6a6f8; */
 
-		--text-color-red-link: #F33;
+		--text-color-red-link: #E00;
 		--text-color-red-link-active: #D00;
-		--text-color-green-link: #0F0;
-		--text-color-green-link-active: #0D0;
-		--text-color-blue-link: #0BF;
+		--text-color-green-link: #0D0;
+		--text-color-green-link-active: #0C0;
+		--text-color-blue-link: #09F;
 		--text-color-blue-link-active: #09D;
 	}
-}
+/* } */
 
 
 
