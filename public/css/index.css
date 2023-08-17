@@ -222,6 +222,21 @@ header {
 	display: block;
 }
 
+/* Homepage */
+.profile-box {
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+}
+
+.profile-box img {
+	flex: 0 0;
+}
+
+.profile-box div {
+	flex-shrink: 11;
+}
+
 /* Publication list */
 .publist {
 	list-style: none;
