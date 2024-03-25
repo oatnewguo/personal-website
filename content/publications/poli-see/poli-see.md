@@ -5,11 +5,12 @@ venue: WPES '20
 venueFullName: ACM CCS Workshop on Privacy in the Electronic Society
 submitStatus:
 authors: Wentao Guo, Jay Rodolitz, and Eleanor Birrell
+html: https://doi.org/10.1145/3411497.3420221
 pdf: https://cs.pomona.edu/~ebirrell/docs/WPES20-Polisee.pdf
-html:
 reflection:
 talk:
-slides:
+slides: "/publications/poli-see/Poli-see slides.pdf"
+poster: https://www.usenix.org/system/files/soups21-poster16-guo.pdf
 code: https://github.com/oatnewguo/poli-see
 demo: "../projects/poli-see/"
 tags:

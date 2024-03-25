@@ -6,11 +6,12 @@
 <div class="pub-authors"><div><i class="fa-solid fa-user-group"></i></div><p>{{ metadata.authors | boldMe | safe }}</p></div>
 
 {# badges for links to PDFs, code, etc. #}
-{% if metadata.pdf %}<a href="{{ metadata.pdf }}" target="_blank" class="pub-pdf"><i class="fa-solid fa-file-lines"></i>PDF</a>{% endif %}
 {% if metadata.html %}<a href="{{ metadata.html }}" target="_blank" class="pub-html"><i class="fa-solid fa-link"></i>HTML</a>{% endif %}
+{% if metadata.pdf %}<a href="{{ metadata.pdf }}" target="_blank" class="pub-pdf"><i class="fa-solid fa-file-lines"></i>PDF</a>{% endif %}
 {% if metadata.reflection %}<a href="{{ metadata.reflection }}" target="_blank" class="pub-reflection"><i class="fa-solid fa-paragraph"></i></i>Reflection</a>{% endif %}
 {% if metadata.talk %}<a href="{{ metadata.talk }}" target="_blank"><i class="fa-solid fa-video"></i>Talk</a>{% endif %}
 {% if metadata.slides %}<a href="{{ metadata.slides }}" target="_blank"><i class="fa-solid fa-rectangle-list"></i>Slides</a>{% endif %}
+{% if metadata.poster %}<a href="{{ metadata.poster }}" target="_blank"><i class="fa-solid fa-person-chalkboard"></i>Poster</a>{% endif %}
 {% if metadata.code %}<a href="{{ metadata.code }}" target="_blank"><i class="fa-solid fa-code"></i>Code</a>{% endif %}
 {# for demo, target is not _blank because assuming we're redirecting to another page on this website #}
 {% if metadata.demo %}<a href="{{ metadata.demo }}"><i class="fa-solid fa-vial"></i></i>Demo</a>{% endif %}

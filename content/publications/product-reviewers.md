@@ -5,11 +5,12 @@ venue: USENIX '23
 venueFullName: USENIX Security Symposium
 submitStatus:
 authors: Wentao Guo, Jason Walter, and Michelle L. Mazurek
-pdf:
 html: https://www.usenix.org/conference/usenixsecurity23/presentation/guo-wentao
+pdf:
 reflection:
-talk:
-slides: "/publications/product-reviewers/Guo 2023 The Role of Professional Product Reviewers in Evaluating Security and Privacy.pdf"
+talk: https://www.youtube.com/watch?v=c91-uxKtC1A
+slides: https://www.usenix.org/system/files/sec23_slides_guo-wentao.pdf
+poster:
 code:
 demo:
 tags:
