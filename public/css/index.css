@@ -253,15 +253,14 @@ header {
 	line-height: 100%;
 	text-align: right;
 	margin-left: -1.5rem;
+	margin-right: 0.5rem;
+	width: 1rem;
 	font-size: 0.8125em; /* 13px /16 */
 	color: var(--text-color);
 }
 .publist-title {
 	font-size: 1.1875em; /* 19px /16 */
 	font-weight: 700;
-	flex-basis: calc(100% - 1.5rem);
-	padding-left: .25em;
-	padding-right: .5em;
 }
 .pub-metadata {
 	display: flex;
@@ -271,6 +270,9 @@ header {
 }
 .pub-metadata h1 {
 	margin-bottom: 0.25em;
+}
+.pub-metadata h1, p, div {
+	flex-basis: 100%;
 }
 .pub-pdf {
 	color: var(--text-color-red-link) !important;
@@ -296,12 +298,8 @@ header {
 .pub-metadata i {
 	margin-right: 0.25em;
 }
-.pubist-venue {
-	flex-basis: 100%;
-}
 .pub-authors {
 	display: flex;
-	flex-basis: 100%;
 }
 .pub-authors div {
 	flex: 0 0;
