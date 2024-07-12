@@ -4,7 +4,7 @@ date: 2023-10-02
 venue: VL/HCC '23
 venueFullName: IEEE Symposium on Visual Languages and Human-Centric Computing
 submitStatus:
-authors: Michael Coblenz, Wentao Guo, Kamatchi Voozhian, Jeffrey S. Foster
+authors: Michael Coblenz, Wentao Guo, Kamatchi Voozhian, and Jeffrey S. Foster
 html: https://doi.org/10.1109/VL-HCC57772.2023.00025
 pdf: https://www.cs.tufts.edu/~jfoster/papers/vlhcc23.pdf
 reflection:
