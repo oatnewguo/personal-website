@@ -6,7 +6,7 @@ venueFullName: ACM Conference on Computer and Communications Security
 submitStatus:
 authors: Wentao Guo, Aditya Kishore, Adam J. Aviv, and Michelle L. Mazurek
 html: 
-pdf:
+pdf: /publications/de-id-guides/A Qualitative Analysis of Practical De-identification Guides.pdf
 reflection:
 talk: 
 slides: 
