@@ -8,10 +8,11 @@ authors: Zaina Aljallad, Wentao Guo, Chhaya Chouhan, Christy LaPerriere, Jess Kr
 html:
 pdf: https://www.ndss-symposium.org/wp-content/uploads/2019/02/usec2019_03-3_Aljallad_paper.pdf
 reflection:
+supplement: 
+code:
 talk:
 slides:
 poster:
-code:
 demo:
 tags:
 - "topic: design"

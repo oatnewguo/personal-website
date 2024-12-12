@@ -8,10 +8,11 @@ authors: Michael Coblenz, Wentao Guo, Kamatchi Voozhian, and Jeffrey S. Foster
 html: https://doi.org/10.1109/VL-HCC57772.2023.00025
 pdf: https://www.cs.tufts.edu/~jfoster/papers/vlhcc23.pdf
 reflection:
+supplement: 
+code:
 talk:
 slides:
 poster:
-code:
 demo:
 tags:
 - "topic: professionals"
