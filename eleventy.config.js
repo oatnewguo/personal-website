@@ -72,7 +72,7 @@ module.exports = function(eleventyConfig) {
 
 	// Filters out the non-user-facing tags
 	eleventyConfig.addFilter("filterTagList",
-		tags => (tags || []).filter(tag => ["pub", "project", "abby"].indexOf(tag) === -1)
+		tags => (tags || []).filter(tag => ["pub", "misc", "abby"].indexOf(tag) === -1)
 	);
 	
 	// Bold "Wentao Guo" in a list of author names

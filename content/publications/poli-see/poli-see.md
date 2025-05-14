@@ -13,7 +13,7 @@ code: https://github.com/oatnewguo/poli-see
 talk:
 slides: /publications/poli-see/Poli-see slides.pdf
 poster: https://www.usenix.org/system/files/soups21-poster16-guo.pdf
-demo: "../projects/poli-see/"
+demo: "../misc/poli-see/"
 tags:
 - "topic: design"
 ---

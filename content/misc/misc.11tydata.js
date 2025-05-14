@@ -1,5 +1,5 @@
 module.exports = {
 	tags: [
-		"project"
+		"misc"
 	]
 };

@@ -1,14 +1,14 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Projects
+  key: Misc
   order: 3
-title: Wentao Guo - Projects
+title: Wentao Guo - Miscellaneous
 ---
-<h1>Projects</h1>
+<h1>Miscellaneous</h1>
 
 <ul>
-	{%- for page in collections.project %}
+	{%- for page in collections.misc %}
 	<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
 	{%- endfor %}
 </ul>

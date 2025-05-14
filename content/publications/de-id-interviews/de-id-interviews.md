@@ -5,7 +5,7 @@ venue: USENIX '25
 venueFullName: USENIX Security Symposium
 submitStatus: 
 authors: Wentao Guo, Paige Pepitone, Adam J. Aviv, and Michelle L. Mazurek
-html: 
+html: https://www.usenix.org/conference/usenixsecurity25/presentation/guo-wentao
 pdf: /publications/de-id-interviews/How Researchers De-Identify Data in Practice.pdf
 reflection: 
 supplement: https://osf.io/4tgpv/
