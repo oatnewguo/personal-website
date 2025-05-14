@@ -7,8 +7,9 @@ title: Wentao Guo - Miscellaneous
 ---
 <h1>Miscellaneous</h1>
 
+{# using the eleventyNavigation filter to preserve order; not sure why filtering collections.misc doesn't work #}
 <ul>
-	{%- for page in collections.misc %}
-	<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+	{%- for page in collections.all | eleventyNavigation("Misc") %}
+	<li><a href="{{ page.url }}">{{ page.title }}</a></li>
 	{%- endfor %}
 </ul>
