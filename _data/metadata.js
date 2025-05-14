@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	title: "Wentao Guo",
 	url: "https://wentaoguo.com",
 	language: "en",

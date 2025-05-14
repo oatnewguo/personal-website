@@ -1,8 +1,9 @@
 {
   "name": "wentao-guo-website",
+  "type": "module",
   "version": "1.0.0",
   "description": "Wentao's website!",
-  "main": "index.js",
+  "exports": "./index.js",
   "scripts": {
     "build": "npx eleventy",
     "serve": "npx eleventy --serve",
