@@ -12,7 +12,7 @@ supplement:
 code:
 talk: 
 slides: 
-poster: 
+poster: https://www.usenix.org/conference/soups2025/presentation/zhao-poster
 demo: 
 tags:
 - "topic: professionals"

@@ -11,8 +11,8 @@ reflection:
 supplement: https://osf.io/4tgpv/
 code:
 talk: 
-slides: 
-poster: 
+slides: /publications/de-id-interviews/How Researchers De-Identify Data in Practice slides.pdf
+poster: /publications/de-id-interviews/How Researchers De-Identify Data in Practice poster.pdf
 demo: 
 tags:
 - "topic: professionals"
