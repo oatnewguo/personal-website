@@ -1,7 +1,7 @@
 ---
 title: "How researchers de-identify data in practice"
 date: 2025-08
-venue: USENIX '25
+venue: USENIX ’25
 venueFullName: USENIX Security Symposium
 submitStatus: 
 authors: Wentao Guo, Paige Pepitone, Adam J. Aviv, and Michelle L. Mazurek

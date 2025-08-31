@@ -1,7 +1,7 @@
 ---
 title: "A qualitative study of REST API design and specification practices"
 date: 2023-10-02
-venue: VL/HCC '23
+venue: VL/HCC ’23
 venueFullName: IEEE Symposium on Visual Languages and Human-Centric Computing
 submitStatus:
 authors: Michael Coblenz, Wentao Guo, Kamatchi Voozhian, and Jeffrey S. Foster
