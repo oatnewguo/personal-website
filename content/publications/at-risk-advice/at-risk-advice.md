@@ -4,7 +4,7 @@ date: 2026-07
 venue: PETS ’26
 venueFullName: Privacy Enhancing Technologies Symposium
 submitStatus: 
-authors: Wentao Guo, Alexander Yang, Nathan Malkin, and Michelle L. Mazurek
+authors: Wentao Guo, Alexander Yang,* Nathan Malkin, and Michelle L. Mazurek
 html: 
 pdf: 
 reflection: 
