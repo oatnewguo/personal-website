@@ -4,7 +4,7 @@ eleventyNavigation:
   key: Home
   order: 1
 title: Wentao Guo
-numNewPubs: 3
+numNewPubs: 4
 ---
 <div class="profile-box">
   <img src="img/Wentao.jpg" alt="Wentao Guo" height="300px" width="300px">
@@ -34,7 +34,9 @@ numNewPubs: 3
 <p>I am also a climate advocate (currently serving on College Park's Committee for a Better Environment), swimmer, and musician.</p>
 
 {% set pubCount = collections.pub | length %}
-<h1>Recent Publications</h1>
+<h1 style="margin-bottom: 0">Recent Publications</h1>
+
+<p>* <i>indicates mentored undergraduate student</i></p>
 
 {% set publist = collections.pub | head(-1 * numNewPubs) %}
 {% include "publist.njk" %}
