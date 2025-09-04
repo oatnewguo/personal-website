@@ -271,7 +271,7 @@ header {
 .pub-metadata h1 {
 	margin-bottom: 0.25em;
 }
-.pub-metadata h1, p, div {
+.pub-metadata :is(h1, p, div) {
 	flex-basis: 100%;
 }
 .pub-pdf {
