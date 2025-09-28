@@ -5,8 +5,8 @@ venue: USEC ’19
 venueFullName: NDSS Workshop on Usable Security and Privacy
 submitStatus:
 authors: Zaina Aljallad, Wentao Guo, Chhaya Chouhan, Christy LaPerriere, Jess Kropczynski, Pamela Wisnewski, and Heather Lipford
-html:
-pdf: https://www.ndss-symposium.org/wp-content/uploads/2019/02/usec2019_03-3_Aljallad_paper.pdf
+html: https://www.ndss-symposium.org/ndss-paper/auto-draft-25/
+pdf: https://par.nsf.gov/servlets/purl/10097722
 reflection:
 supplement: 
 code:

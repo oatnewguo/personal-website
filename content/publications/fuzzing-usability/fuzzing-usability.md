@@ -6,7 +6,7 @@ venueFullName: ACM Conference on Computer and Communications Security
 submitStatus: 
 authors: Yunze Zhao, Wentao Guo, Harrison Goldstein, Daniel Votipka, Kelsey Fulton, Michelle L. Mazurek
 html: 
-pdf: 
+pdf: /publications/fuzzing-usability/A Qualitative Analysis of Fuzzer Usability and Challenges.pdf
 reflection: 
 supplement: 
 code:

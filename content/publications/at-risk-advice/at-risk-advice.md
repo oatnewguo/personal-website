@@ -6,7 +6,7 @@ venueFullName: Privacy Enhancing Technologies Symposium
 submitStatus: 
 authors: Wentao Guo, Alexander Yang,* Nathan Malkin, and Michelle L. Mazurek
 html: 
-pdf: 
+pdf: /publications/at-risk-advice/How Experts Personalize Privacy & Security Advice for At-Risk Users.pdf
 reflection: 
 supplement: 
 code:
