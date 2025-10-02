@@ -8,7 +8,7 @@ authors: Wentao Guo, Alexander Yang,* Nathan Malkin, and Michelle L. Mazurek
 html: 
 pdf: /publications/at-risk-advice/How Experts Personalize Privacy & Security Advice for At-Risk Users.pdf
 reflection: 
-supplement: 
+supplement: https://osf.io/pqh84/
 code:
 talk: 
 slides: 

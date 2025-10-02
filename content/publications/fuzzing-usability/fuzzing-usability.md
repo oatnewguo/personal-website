@@ -8,7 +8,7 @@ authors: Yunze Zhao, Wentao Guo, Harrison Goldstein, Daniel Votipka, Kelsey Fult
 html: 
 pdf: /publications/fuzzing-usability/A Qualitative Analysis of Fuzzer Usability and Challenges.pdf
 reflection: 
-supplement: 
+supplement: https://osf.io/bshup/
 code:
 talk: 
 slides: 
