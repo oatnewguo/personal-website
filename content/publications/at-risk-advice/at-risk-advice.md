@@ -11,8 +11,8 @@ reflection:
 supplement: https://osf.io/pqh84/
 code:
 talk: 
-slides: 
-poster: 
+slides: /publications/at-risk-advice/How Experts Personalize Privacy & Security Advice for At-Risk Users slides.pdf
+poster: /publications/at-risk-advice/How Experts Personalize Privacy & Security Advice for At-Risk Users poster.pdf
 demo: 
 tags:
 - "topic: professionals"

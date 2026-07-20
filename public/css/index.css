@@ -15,6 +15,7 @@
 	--shadow-color-body: rgba(0,0,0,0.2);
 
 	--text-color: #333;
+	--text-color-light: #555;
 	--text-color-link: #082840;
 	--text-color-link-active: #5f2b48;
 	/* --text-color-link-visited: #17050F; */
@@ -28,30 +29,6 @@
 
 	--syntax-tab-size: 2;
 }
-
-/* @media (prefers-color-scheme: dark) {
-	:root {
-		--outline-color: #bbb;
-
-		--background-color-page: #000;
-		--background-color-body: #15202b;
-		--background-color-body-offset: #0d141b;
-
-		--shadow-color-body: rgba(255,255,255,0.4);
-
-		--text-color: #dad8d8;
-		--text-color-link: #FBC;
-		--text-color-link-active: #FD0;
-		--text-color-link-visited: #a6a6f8; note, I had this line commented out previously
-
-		--text-color-red-link: #E00;
-		--text-color-red-link-active: #D00;
-		--text-color-green-link: #0D0;
-		--text-color-green-link-active: #0C0;
-		--text-color-blue-link: #09F;
-		--text-color-blue-link-active: #09D;
-	}
-} */
 
 
 
@@ -235,6 +212,26 @@ header {
 
 .profile-box div {
 	flex-shrink: 11;
+}
+
+.profile-box h1 {
+	margin-bottom: 0.5rem;
+}
+
+.profile-box .affiliation {
+	font-size: 1.3em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.profile-box .detail {
+	color: var(--text-color-light);
+	margin-top: 0;
+}
+
+.profile-box .contact {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 /* Publication list */
