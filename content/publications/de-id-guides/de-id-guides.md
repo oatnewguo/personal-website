@@ -1,6 +1,6 @@
 ---
 title: "A qualitative analysis of practical de-identification guides"
-date: 2024-10-14
+date: 2024-10
 venue: CCS ’24
 venueFullName: ACM Conference on Computer and Communications Security
 submitStatus: 

@@ -1,6 +1,6 @@
 ---
 title: "The role of professional product reviewers in evaluating security and privacy"
-date: 2023-08-09
+date: 2023-08
 venue: USENIX ’23
 venueFullName: USENIX Security Symposium
 submitStatus:
