@@ -10,7 +10,7 @@ pdf: /publications/at-risk-advice/How Experts Personalize Privacy & Security Adv
 reflection: 
 supplement: https://osf.io/pqh84/
 code:
-talk: 
+talk: https://www.youtube.com/watch?v=saeoO8Izihc
 slides: /publications/at-risk-advice/How Experts Personalize Privacy & Security Advice for At-Risk Users slides.pdf
 poster: /publications/at-risk-advice/How Experts Personalize Privacy & Security Advice for At-Risk Users poster.pdf
 demo: 
