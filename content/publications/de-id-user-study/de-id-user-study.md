@@ -4,7 +4,7 @@ date: 2027-07
 venue: PETS ’27
 venueFullName: Privacy Enhancing Technologies Symposium
 submitStatus: 
-authors: Wentao Guo, Wellington Barbosa, Adam J. Aviv, and Michelle L. Mazurek
+authors: Wentao Guo, Wellington Esposito Barbosa, Adam J. Aviv, and Michelle L. Mazurek
 html: 
 pdf: 
 reflection: 
