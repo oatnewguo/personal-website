@@ -285,11 +285,11 @@ header {
 .pub-html:active {
 	color: var(--text-color-green-link-active) !important;
 }
-.pub-reflection {
+.pub-talk {
 	color: var(--text-color-blue-link) !important;
 }
-.pub-reflection:hover,
-.pub-reflection:active {
+.pub-talk:hover,
+.pub-talk:active {
 	color: var(--text-color-blue-link-active) !important;
 }
 .pub-metadata i {

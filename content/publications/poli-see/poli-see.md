@@ -7,7 +7,6 @@ submitStatus:
 authors: Wentao Guo, Jay Rodolitz, and Eleanor Birrell
 html: https://doi.org/10.1145/3411497.3420221
 pdf: https://cs.pomona.edu/~ebirrell/docs/WPES20-Polisee.pdf
-reflection:
 supplement: 
 code: https://github.com/oatnewguo/poli-see
 talk:

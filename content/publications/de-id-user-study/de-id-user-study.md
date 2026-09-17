@@ -7,7 +7,6 @@ submitStatus:
 authors: Wentao Guo, Wellington Esposito Barbosa, Adam J. Aviv, and Michelle L. Mazurek
 html: 
 pdf: 
-reflection: 
 supplement: 
 code:
 talk: 

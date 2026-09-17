@@ -7,7 +7,6 @@ submitStatus:
 authors: Zaina Aljallad, Wentao Guo, Chhaya Chouhan, Christy LaPerriere, Jess Kropczynski, Pamela Wisnewski, and Heather Lipford
 html: https://www.ndss-symposium.org/ndss-paper/auto-draft-25/
 pdf: https://par.nsf.gov/servlets/purl/10097722
-reflection:
 supplement: 
 code:
 talk:
