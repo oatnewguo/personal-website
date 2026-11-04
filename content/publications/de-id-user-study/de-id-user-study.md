@@ -6,7 +6,7 @@ venueFullName: Privacy Enhancing Technologies Symposium
 submitStatus: 
 authors: Wentao Guo, Wellington Esposito Barbosa, Adam J. Aviv, and Michelle L. Mazurek
 html: 
-pdf: 
+pdf: /publications/de-id-user-study/An Exploratory User Study of Disclosure Avoidance Tools for Scientific Microdata.pdf
 supplement: 
 code:
 talk: 
